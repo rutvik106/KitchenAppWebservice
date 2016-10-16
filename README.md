@@ -45,8 +45,7 @@ if error_code is 1 dont parse the response further, just show message in Toast/L
 > 
 > post parameters:
 > 
-> 	>email
-	password
+> email, password
 
 **3) Add new user role**
 
@@ -55,8 +54,7 @@ if error_code is 1 dont parse the response further, just show message in Toast/L
 > method url: /UserRole 
 > 
 > put parameters:  
-> >role_name
-> role_added_by
+> >role_name, role_added_by
 
 
 ####**MENU RELATED METHODS**
@@ -75,11 +73,7 @@ if error_code is 1 dont parse the response further, just show message in Toast/L
 > 
 > put parameters:
 > 
->> name 
-> category_id
-> price 
-> description (optional)
-> image_url (optional)
+>> name, category_id, price, description (optional), image_url (optional)
 
 **3) Get menu item category**
 
@@ -94,8 +88,7 @@ if error_code is 1 dont parse the response further, just show message in Toast/L
 > method url: /MenuItemCategory 
 > 
 > put parameters: 
->> category_name
-> super_category
+>> category_name, super_category
 
 
 ####**ORDER RELATED METHODS**
@@ -112,7 +105,8 @@ if error_code is 1 dont parse the response further, just show message in Toast/L
 > 
 > method url: /Order 
 > 
-> put parameters: 	 data 
+> put parameters: 	 
+> >data 
 > 
 > data format: 
 > >{ "order_name":"rakshit bhai", "order_table":"2",
@@ -131,9 +125,7 @@ if error_code is 1 dont parse the response further, just show message in Toast/L
 > method url: /OrderItem/change_item_status
 > 
 > post parameters: 
-> >orderitem_id
-> orderitem_status
-> updated_by
+> >orderitem_id, orderitem_status, updated_by
 
 ####**TABLE INFO RELATED METHODS**
 
@@ -151,9 +143,4 @@ if error_code is 1 dont parse the response further, just show message in Toast/L
 > 
 > put parameters:
 > 
-> >table_name
-> table_shape 
-> table_position 
-> table_size
-> table_capacity
-> table_status
+> >table_name, table_shape, table_position, table_size, table_capacity, table_status
