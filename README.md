@@ -36,11 +36,11 @@ if error_code is 1 dont parse the response further, just show message in Toast/L
  
 > put parameters:  
 > >first_name
-> last_name 
-> email 
-> password 
-> display_name 
-> pin (optional)
+> >last_name 
+> >email 
+> >password 
+> >display_name 
+> >pin (optional)
 
 **2) Login**
 
