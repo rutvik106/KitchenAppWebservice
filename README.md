@@ -35,12 +35,7 @@ if error_code is 1 dont parse the response further, just show message in Toast/L
 > method url: /User 
  
 > put parameters:  
-> >first_name
-> >last_name 
-> >email 
-> >password 
-> >display_name 
-> >pin (optional)
+> >first_name, last_name, email, password, display_name, pin (optional)
 
 **2) Login**
 
